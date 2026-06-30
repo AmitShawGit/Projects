@@ -33,7 +33,7 @@ let filteredCountry = details
                         /> &nbsp; {item.name} 
                                 </p>
                            
-              <button className='map_btn' onClick={() => navigate(`/map?lon=${item?.longitude}&lan=${item?.latitude}`)}>Show Map</button> </div></li> 
+              <button className='map_btn' onClick={() => navigate(`/project/map?lon=${item?.longitude}&lan=${item?.latitude}`)}>Show Map</button> </div></li> 
                         
                      }): <LoaderIcon /> 
                 

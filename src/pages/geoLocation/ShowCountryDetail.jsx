@@ -60,7 +60,7 @@ const ShowCountryDetail = ({ countryDetail }) => {
             </tr>
             <tr>
               <td>Map</td>
-              <td><button className='map_btn' onClick={() => navigate(`/map?lon=${countryDetail?.longitude}&lan=${countryDetail?.latitude}`)}>Show Map</button></td>
+              <td><button className='map_btn' onClick={() => navigate(`/project/map?lon=${countryDetail?.longitude}&lan=${countryDetail?.latitude}`)}>Show Map</button></td>
             </tr>
           </tbody>
         </table>
